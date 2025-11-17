@@ -216,7 +216,7 @@ export const experienceData = [
 	{
 		id: 2,
 		role: 'Full Stack Developer',
-		company: 'PT. Labcom Indonesia',
+		company: 'PT. Lab Computer Indonesia',
 		location: 'Sukabumi, ID',
 		startDate: 'Oct 2023',
 		endDate: '2024',

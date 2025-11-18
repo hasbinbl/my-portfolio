@@ -218,8 +218,8 @@ export const experienceData = [
 		role: 'Full Stack Developer',
 		company: 'PT. Lab Computer Indonesia',
 		location: 'Sukabumi, ID',
-		startDate: 'Oct 2023',
-		endDate: '2024',
+		startDate: 'Jul 2023',
+		endDate: 'Jan 2025',
 		description:
 			'Developed and maintained web applications covering both front-end and back-end, including Point of Sales (POS) and blog CMS projects.',
 		achievements: [

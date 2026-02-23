@@ -20,8 +20,8 @@ const Hero = () => {
 			</h1>
 			<p className="max-w-2xl mx-auto">
 				Enjoys building clean, functional, and thoughtful web apps. With
-				over 2 years of experience, I turn ideas into reality, one line
-				of code at a time.
+				around 3 years of experience, I turn ideas into reality, one
+				line of code at a time.
 			</p>
 			<div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
 				<a

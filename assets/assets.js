@@ -43,7 +43,7 @@ export const infoList = [
 	{
 		icon: BriefcaseBusiness,
 		title: 'Experience',
-		description: '2 Years',
+		description: '3 Years',
 	},
 	{
 		icon: GraduationCap,
@@ -200,33 +200,51 @@ export const experienceData = [
 	{
 		id: 1,
 		role: 'Full Stack Developer',
-		company: 'Entercode Technology',
-		location: 'Gorontalo, ID (Remote)',
-		startDate: 'Apr 2025',
-		endDate: 'May 2025',
+		company: 'PT. Lab Computer Indonesia',
+		location: 'Sukabumi, ID – Hybrid',
+		startDate: 'Sep 2023',
+		endDate: 'Feb 2026',
 		description:
-			'Contributed to full-stack development of a web application for an Internet Service Provider (ISP) using Laravel and MySQL.',
+			'Responsible for designing and developing scalable web-based systems across multiple industries, translating business requirements into reliable full-stack solutions while ensuring code quality, performance, and long-term maintainability.',
 		achievements: [
-			'Implemented Repository Pattern in Laravel for maintainable code',
-			'Integrated AJAX for dynamic front-end interactions',
-			'Added WhatsApp notification integration using Twilio API',
-			'Implemented payment gateway integration with Duitku',
+			'Developed a custom Content Management System (CMS) with an administrative dashboard and public blog platform, including dynamic sections, banner management, article publishing workflow, social sharing, and SEO configuration. The platform improved search visibility and increased organic traffic and reader engagement.',
+			'Contributed to the early development of a restaurant Point of Sale (POS) system by implementing secure cashier authentication and designing an efficient table selection workflow, improving transaction accuracy and operational flow.',
+			'Developed an integrated all-in-one F&B POS system deployed across 14 active outlets, covering transaction processing, multi-point receipt printing, master data management, inventory control, stock movement tracking, and real-time stock monitoring, enhancing operational efficiency and scalability.',
+			'Contributed to the development of a Hospital Management Information System (SIMRS), implementing structured master data and outpatient workflows from patient registration to diagnosis documentation, streamlining clinical administration and improving data consistency.',
+			'Developed scalable web applications using CodeIgniter and Laravel with JavaScript for interactive frontend features, maintaining clean, maintainable, and business-aligned system architecture.',
+			'Worked in a hybrid environment, balancing remote development with on-site strategic meetings and urgent deployment cycles to ensure timely and stable delivery.',
 		],
 	},
 	{
 		id: 2,
-		role: 'Full Stack Developer',
-		company: 'PT. Lab Computer Indonesia',
-		location: 'Sukabumi, ID',
-		startDate: 'Jul 2023',
-		endDate: 'Jan 2025',
+		role: 'Full Stack Developer (Contract)',
+		company: 'Entercode Technology',
+		location: 'Gorontalo, ID – Remote',
+		startDate: 'Apr 2025',
+		endDate: 'May 2025',
 		description:
-			'Developed and maintained web applications covering both front-end and back-end, including Point of Sales (POS) and blog CMS projects.',
+			'Delivered a short-term remote project focused on building a structured and scalable system within a tight timeline, emphasizing clean architecture, rapid development, and reliable third-party integrations.',
 		achievements: [
-			'Built and enhanced POS application for restaurant operations',
-			'Developed CMS-powered blog website with custom features',
-			'Used PHP and JavaScript with CodeIgniter framework',
-			'Collaborated with developers via GitHub for version control',
+			'Developed a lightweight ISP management system, delivering core features within a one-month remote contract timeline. Implemented Laravel Repository Pattern to improve code structure, maintainability, and reusability across the application.',
+			'Built end-to-end features including master data management, branch-based data filtering, and interactive workflows using AJAX, aligned with business requirements.',
+			'Integrated third-party services such as Google Maps API for automated location mapping and coordinate synchronization, and Twilio WhatsApp API for real-time notification features.',
+		],
+	},
+	{
+		id: 3,
+		role: 'Junior Full Stack Developer',
+		company: 'PT. Lab Computer Indonesia',
+		location: 'Sukabumi, ID – Hybrid',
+		startDate: 'Feb 2023',
+		endDate: 'Aug 2023',
+		description:
+			'Supported other developers in building and maintaining web applications, contributing to system design discussions and implementing foundational features while strengthening technical and collaborative skills.',
+		achievements: [
+			'Assisted in designing and reviewing Entity Relationship Diagrams (ERD) to ensure well-structured and scalable database architecture.',
+			'Supported feature planning by contributing to workflow design, business logic mapping, and technical breakdown discussions.',
+			'Contributed to the development of core application features, including CRUD operations for master data modules.',
+			'Utilized Git for version control to manage code changes, maintain clean commit history, and support collaborative development.',
+			'Collaborated with cross-functional team members through GitHub for pull requests, code reviews, and issue tracking.',
 		],
 	},
 ];
@@ -235,7 +253,7 @@ export const socialLinks = [
 	{
 		name: 'GitHub',
 		icon: Github,
-		url: 'https://github.com/nabildevs',
+		url: 'https://github.com/hasbinbl',
 		color: 'hover:text-gray-900 hover:bg-gray-100',
 	},
 	{

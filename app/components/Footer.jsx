@@ -49,12 +49,11 @@ const Footer = () => {
 
 					<div className="pt-6 border-t border-gray-200 mt-6">
 						<div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-							<p className="text-gray-500 text-sm">
-								© {currentYear} Hasbi Nabil. All rights
-								reserved.
+							<p className="text-gray-500 text-xs">
+								© {currentYear} Hasbi Nabil
 							</p>
-							<p className="text-gray-500 text-sm">
-								Built with Next.js & Tailwind CSS
+							<p className="text-gray-500 text-xs">
+								Full Stack Developer. Sukabumi, ID
 							</p>
 						</div>
 					</div>

@@ -161,28 +161,9 @@ const Portfolio = () => {
 										</div>
 									</div>
 
-									<p className="text-gray-600 mb-5">
+									<p className="text-gray-600">
 										{exp.description}
 									</p>
-
-									<div className="space-y-2">
-										<h4 className="font-medium text-gray-900">
-											Key Achievements:
-										</h4>
-										<ul className="space-y-1">
-											{exp.achievements.map(
-												(achievement, achIndex) => (
-													<li
-														key={achIndex}
-														className="text-gray-600 text-sm flex items-start gap-2"
-													>
-														<span className="w-1.5 h-1.5 bg-cyan-600 rounded-full mt-2 flex-shrink-0"></span>
-														{achievement}
-													</li>
-												)
-											)}
-										</ul>
-									</div>
 								</div>
 							</div>
 						))}

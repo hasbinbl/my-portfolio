@@ -43,7 +43,7 @@ export const infoList = [
 	{
 		icon: BriefcaseBusiness,
 		title: 'Experience',
-		description: '3 Years',
+		description: '+3 Years',
 	},
 	{
 		icon: GraduationCap,
@@ -53,7 +53,7 @@ export const infoList = [
 	{
 		icon: FolderGit2,
 		title: 'Projects',
-		description: '5+ Completed',
+		description: '+5 Completed',
 	},
 ];
 
@@ -199,6 +199,16 @@ export const projectsData = [
 export const experienceData = [
 	{
 		id: 1,
+		role: 'Founder',
+		company: 'PT. Hana Solve Indonesia',
+		location: 'Sukabumi, ID',
+		startDate: 'Jan 2026',
+		endDate: 'Present',
+		description:
+			'Founded and led a web development agency, overseeing both business strategy and technical delivery for SME clients. Responsible for designing initial architectures, developing core features, and maintaining rigorous engineering standards to ensure high-quality product execution.',
+	},
+	{
+		id: 2,
 		role: 'Full Stack Developer',
 		company: 'PT. Lab Computer Indonesia',
 		location: 'Sukabumi, ID – Hybrid',
@@ -206,17 +216,9 @@ export const experienceData = [
 		endDate: 'Feb 2026',
 		description:
 			'Responsible for designing and developing scalable web-based systems across multiple industries, translating business requirements into reliable full-stack solutions while ensuring code quality, performance, and long-term maintainability.',
-		achievements: [
-			'Developed a custom Content Management System (CMS) with an administrative dashboard and public blog platform, including dynamic sections, banner management, article publishing workflow, social sharing, and SEO configuration. The platform improved search visibility and increased organic traffic and reader engagement.',
-			'Contributed to the early development of a restaurant Point of Sale (POS) system by implementing secure cashier authentication and designing an efficient table selection workflow, improving transaction accuracy and operational flow.',
-			'Developed an integrated all-in-one F&B POS system deployed across 14 active outlets, covering transaction processing, multi-point receipt printing, master data management, inventory control, stock movement tracking, and real-time stock monitoring, enhancing operational efficiency and scalability.',
-			'Contributed to the development of a Hospital Management Information System (SIMRS), implementing structured master data and outpatient workflows from patient registration to diagnosis documentation, streamlining clinical administration and improving data consistency.',
-			'Developed scalable web applications using CodeIgniter and Laravel with JavaScript for interactive frontend features, maintaining clean, maintainable, and business-aligned system architecture.',
-			'Worked in a hybrid environment, balancing remote development with on-site strategic meetings and urgent deployment cycles to ensure timely and stable delivery.',
-		],
 	},
 	{
-		id: 2,
+		id: 3,
 		role: 'Full Stack Developer (Contract)',
 		company: 'Entercode Technology',
 		location: 'Gorontalo, ID – Remote',
@@ -224,14 +226,9 @@ export const experienceData = [
 		endDate: 'May 2025',
 		description:
 			'Delivered a short-term remote project focused on building a structured and scalable system within a tight timeline, emphasizing clean architecture, rapid development, and reliable third-party integrations.',
-		achievements: [
-			'Developed a lightweight ISP management system, delivering core features within a one-month remote contract timeline. Implemented Laravel Repository Pattern to improve code structure, maintainability, and reusability across the application.',
-			'Built end-to-end features including master data management, branch-based data filtering, and interactive workflows using AJAX, aligned with business requirements.',
-			'Integrated third-party services such as Google Maps API for automated location mapping and coordinate synchronization, and Twilio WhatsApp API for real-time notification features.',
-		],
 	},
 	{
-		id: 3,
+		id: 4,
 		role: 'Junior Full Stack Developer',
 		company: 'PT. Lab Computer Indonesia',
 		location: 'Sukabumi, ID – Hybrid',
@@ -239,13 +236,6 @@ export const experienceData = [
 		endDate: 'Aug 2023',
 		description:
 			'Supported other developers in building and maintaining web applications, contributing to system design discussions and implementing foundational features while strengthening technical and collaborative skills.',
-		achievements: [
-			'Assisted in designing and reviewing Entity Relationship Diagrams (ERD) to ensure well-structured and scalable database architecture.',
-			'Supported feature planning by contributing to workflow design, business logic mapping, and technical breakdown discussions.',
-			'Contributed to the development of core application features, including CRUD operations for master data modules.',
-			'Utilized Git for version control to manage code changes, maintain clean commit history, and support collaborative development.',
-			'Collaborated with cross-functional team members through GitHub for pull requests, code reviews, and issue tracking.',
-		],
 	},
 ];
 
